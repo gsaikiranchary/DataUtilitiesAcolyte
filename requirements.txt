@@ -2,7 +2,7 @@ cryptography
 matplotlib
 networkx
 numpy
-openai
+openai==0.28
 openpyxl
 pandas
 pyodbc
