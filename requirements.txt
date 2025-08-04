@@ -1,0 +1,13 @@
+cryptography
+matplotlib
+networkx
+numpy
+openai
+openpyxl
+pandas
+pyodbc
+requests
+scikit-learn
+scipy
+streamlit
+teradatasql
