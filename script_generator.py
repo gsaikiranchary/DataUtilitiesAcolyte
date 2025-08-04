@@ -79,7 +79,7 @@ def generate_etl_script(metadata_df, source_schema, source_table, target_schema,
     return f"INSERT INTO {target_schema}.{target_table} ({column_list})\nSELECT {column_list} FROM {source_schema}.{source_table};"
 
 def run_script_generator_ui():
-    st.title("Document Generator")
+    st.title("Script Generator")
     st.markdown("Generate STTM, DDL, and ETL/ELT scripts from metadata with platform-specific data types.")
 
     connector_types = ["Teradata", "Azure SQL DB", "Databricks"]
